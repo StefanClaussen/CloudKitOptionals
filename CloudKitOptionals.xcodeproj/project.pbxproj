@@ -26,6 +26,7 @@
 		F80A1AF72A9C9A2D00667F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F80A1AF92A9C9A2D00667F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F80A1B002A9C9B3D00667F34 /* CloudKitOptionals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CloudKitOptionals.xcdatamodel; sourceTree = "<group>"; };
+		F80A1B022A9C9C4800667F34 /* CloudKitOptionals.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudKitOptionals.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		F80A1AEA2A9C9A2D00667F34 /* CloudKitOptionals */ = {
 			isa = PBXGroup;
 			children = (
+				F80A1B022A9C9C4800667F34 /* CloudKitOptionals.entitlements */,
 				F80A1AEB2A9C9A2D00667F34 /* AppDelegate.swift */,
 				F80A1AED2A9C9A2D00667F34 /* SceneDelegate.swift */,
 				F80A1AEF2A9C9A2D00667F34 /* ViewController.swift */,
@@ -289,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CloudKitOptionals/CloudKitOptionals.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QJT4Q96V2B;
@@ -317,6 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CloudKitOptionals/CloudKitOptionals.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QJT4Q96V2B;
