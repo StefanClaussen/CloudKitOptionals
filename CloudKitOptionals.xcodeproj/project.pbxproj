@@ -14,6 +14,7 @@
 		F80A1AF52A9C9A2D00667F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80A1AF42A9C9A2D00667F34 /* Assets.xcassets */; };
 		F80A1AF82A9C9A2D00667F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80A1AF62A9C9A2D00667F34 /* LaunchScreen.storyboard */; };
 		F80A1B012A9C9B3D00667F34 /* CloudKitOptionals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F80A1AFF2A9C9B3D00667F34 /* CloudKitOptionals.xcdatamodeld */; };
+		F80A1B042A9C9DBE00667F34 /* ManagedMyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A1B032A9C9DBE00667F34 /* ManagedMyObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F80A1AF92A9C9A2D00667F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F80A1B002A9C9B3D00667F34 /* CloudKitOptionals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CloudKitOptionals.xcdatamodel; sourceTree = "<group>"; };
 		F80A1B022A9C9C4800667F34 /* CloudKitOptionals.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudKitOptionals.entitlements; sourceTree = "<group>"; };
+		F80A1B032A9C9DBE00667F34 /* ManagedMyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedMyObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				F80A1AF62A9C9A2D00667F34 /* LaunchScreen.storyboard */,
 				F80A1AF92A9C9A2D00667F34 /* Info.plist */,
 				F80A1AFF2A9C9B3D00667F34 /* CloudKitOptionals.xcdatamodeld */,
+				F80A1B032A9C9DBE00667F34 /* ManagedMyObject.swift */,
 			);
 			path = CloudKitOptionals;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				F80A1AEC2A9C9A2D00667F34 /* AppDelegate.swift in Sources */,
 				F80A1B012A9C9B3D00667F34 /* CloudKitOptionals.xcdatamodeld in Sources */,
 				F80A1AEE2A9C9A2D00667F34 /* SceneDelegate.swift in Sources */,
+				F80A1B042A9C9DBE00667F34 /* ManagedMyObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
