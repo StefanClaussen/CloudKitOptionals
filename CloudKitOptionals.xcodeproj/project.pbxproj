@@ -13,6 +13,7 @@
 		F80A1AF32A9C9A2D00667F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80A1AF12A9C9A2D00667F34 /* Main.storyboard */; };
 		F80A1AF52A9C9A2D00667F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80A1AF42A9C9A2D00667F34 /* Assets.xcassets */; };
 		F80A1AF82A9C9A2D00667F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80A1AF62A9C9A2D00667F34 /* LaunchScreen.storyboard */; };
+		F80A1B012A9C9B3D00667F34 /* CloudKitOptionals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F80A1AFF2A9C9B3D00667F34 /* CloudKitOptionals.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F80A1AF42A9C9A2D00667F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F80A1AF72A9C9A2D00667F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F80A1AF92A9C9A2D00667F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80A1B002A9C9B3D00667F34 /* CloudKitOptionals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CloudKitOptionals.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F80A1AF42A9C9A2D00667F34 /* Assets.xcassets */,
 				F80A1AF62A9C9A2D00667F34 /* LaunchScreen.storyboard */,
 				F80A1AF92A9C9A2D00667F34 /* Info.plist */,
+				F80A1AFF2A9C9B3D00667F34 /* CloudKitOptionals.xcdatamodeld */,
 			);
 			path = CloudKitOptionals;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				F80A1AF02A9C9A2D00667F34 /* ViewController.swift in Sources */,
 				F80A1AEC2A9C9A2D00667F34 /* AppDelegate.swift in Sources */,
+				F80A1B012A9C9B3D00667F34 /* CloudKitOptionals.xcdatamodeld in Sources */,
 				F80A1AEE2A9C9A2D00667F34 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +362,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F80A1AFF2A9C9B3D00667F34 /* CloudKitOptionals.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F80A1B002A9C9B3D00667F34 /* CloudKitOptionals.xcdatamodel */,
+			);
+			currentVersion = F80A1B002A9C9B3D00667F34 /* CloudKitOptionals.xcdatamodel */;
+			path = CloudKitOptionals.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F80A1AE02A9C9A2D00667F34 /* Project object */;
 }
